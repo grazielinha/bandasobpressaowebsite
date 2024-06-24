@@ -1,221 +1,221 @@
 const dadosRepertorio = {
   rockAnos60: [
     {
-      imagem: '/path/to/livin-on-a-prayer.jpg',
+      imagem: '/imagens/imagensRepertorio/TwistAndShout.png',
       nomeMusica: "Twist And Shout",
       artista: "The Beatles"
     },
     {
-      imagem: '/path/to/paradise-city.jpg',
+      imagem: '/imagens/imagensRepertorio/BlueSuedeShoes.png',
       nomeMusica: "Blue Sweat Shoes",
       artista: "Elvis Presley"
     },
     {
-      imagem: '/path/to/hells-bells.jpg',
-      nomeMusica: "Johnny Be Good",
+      imagem: '/imagens/imagensRepertorio/JohnnyBGoode.png',
+      nomeMusica: "Johnny B Goode",
       artista: "Chuck Berry"
     }
   ],
   rockNacional: [
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/ProibidaPraMim.png',
           nomeMusica: "Proibida Pra Mim",
           artista: "Charlie Brown Jr."
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/MulherDeFases.png',
           nomeMusica: "Mulher De Fases",
           artista: "Raimundos"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "Ana Julia",
+          imagem: '/imagens/imagensRepertorio/AnnaJulia.png',
+          nomeMusica: "Anna Julia",
           artista: "Los Hermanos"
         }
   ],
   sertanejo: [ //Sertanejo Boteco
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/BoateAzul.png',
           nomeMusica: "Boate Azul",
-          artista: "Bon Jovi"
+          artista: "Bruno & Marrone"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/TeAmarFoiIlusao.png',
           nomeMusica: "Te Amar Foi Ilusao",
           artista: "Bruno e Marrone"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
+          imagem: '/imagens/imagensRepertorio/Evidencias.png',
           nomeMusica: "Evidencias",
           artista: "Chitãozinho & Xororó"
         }
   ],
   baladaAnos80: [ //tirar
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "You Are The One That I Want",
+          imagem: '/imagens/imagensRepertorio/YoureTheOneThatIWant.png',
+          nomeMusica: "You're The One That I Want",
           artista: "John Travolta and Olivia Newton-John"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/Footlose.png',
           nomeMusica: "Footlose",
           artista: "Kenny Loggins"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
+          imagem: '/imagens/imagensRepertorio/WhiskyAGoGo.png',
           nomeMusica: "Whisky a Go Go",
           artista: "Roupa Nova"
         }
   ],
   discoMusic: [
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/StayinAlive.png',
           nomeMusica: "Stayin' Alive",
           artista: "Bee Gees"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/DancingQueen.png',
           nomeMusica: "Dancing Queen",
           artista: "Abba"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
+          imagem: '/imagens/imagensRepertorio/IWillSurvive.png',
           nomeMusica: "I Will Survive",
           artista: "Gloria Gaynor"
         }
   ],
   oktoberFest: [
     {
-      imagem: '/path/to/livin-on-a-prayer.jpg',
+      imagem: '/imagens/imagensRepertorio/BarrilDeChopp.png',
       nomeMusica: "Barril de Chopp",
       artista: "Banda Ghermania"
     },
     {
-      imagem: '/path/to/paradise-city.jpg',
+      imagem: '/imagens/imagensRepertorio/ZicZac.png',
       nomeMusica: "Zic Zac",
       artista: "Os Montanari"
     },
     {
-      imagem: '/path/to/hells-bells.jpg',
+      imagem: '/imagens/imagensRepertorio/Marreca.png',
       nomeMusica: "Marreca",
       artista: "Banda Cavalinho"
     }
   ],
   rockInternacional: [
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/IWantToBreakFree.png',
           nomeMusica: "I Want To Break Free",
           artista: "Queen"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/SweetChildOMine.png',
           nomeMusica: "Sweet Child O' Mine",
           artista: "Guns N' Roses"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "Highway Hell",
+          imagem: '/imagens/imagensRepertorio/HighwayToHell.png',
+          nomeMusica: "Highway To Hell",
           artista: "AC/DC"
         }
   ],
   pagode: [
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/CheiaDeManias.png',
           nomeMusica: "Cheia de Manias",
           artista: "Raça Negra"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/CoracaoRadiante.png',
           nomeMusica: "Coração Radiante",
           artista: "Grupo Revelação"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
+          imagem: '/imagens/imagensRepertorio/Pimpolho.png',
           nomeMusica: "Pimpolho",
           artista: "Art Popular"
         }
   ],
   musicaGaucha: [
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/DoFundoDaGrota.png',
           nomeMusica: "Do Fundo da Grota",
           artista: "BAITACA"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/CamioneteBranca.png',
           nomeMusica: "Camionete Branca",
           artista: "Paulinho Mocelin"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
+          imagem: '/imagens/imagensRepertorio/Mercedita.png',
           nomeMusica: "Mercedita",
           artista: "Grupo Querência"
         }
   ],
   forro: [
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/RindoAToa.png',
           nomeMusica: "Rindo À Toa",
           artista: "Falamansa"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/XoteDeAlegria.png',
           nomeMusica: "Xote da alegria",
           artista: "Falamansa"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
+          imagem: '/imagens/imagensRepertorio/EsperandoNaJanela.png',
           nomeMusica: "Esperando na janela",
           artista: "Gilberto Gil"
         }
   ],
   funk: [
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/SoAsCachorras.png',
           nomeMusica: "Só As Cachorras",
           artista: "Bonde do Tigrão"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/FunkRave.png',
           nomeMusica: "Funk Rave",
           artista: "Anitta"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
-          nomeMusica: "Rainha da favela",
+          imagem: '/imagens/imagensRepertorio/RainhaDaFavela.png',
+          nomeMusica: "Rainha Da Favela",
           artista: "Ludmilla"
         }
   ],
   reggae: [
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
-          nomeMusica: "Vagabundo confesso",
+          imagem: '/imagens/imagensRepertorio/VagabundoConfesso.png',
+          nomeMusica: "Vagabundo Confesso",
           artista: "Dazaranha"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/ReggaeDasTramanda.png',
           nomeMusica: "Reggae das Tramanda",
           artista: "Armandinho"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
+          imagem: '/imagens/imagensRepertorio/TocaUmaReggueraAi.png',
           nomeMusica: "Toca uma Regguera ai",
           artista: "Armandinho"
         }
   ],
   popRockNacional: [ //Sertanejo Universitario
       {
-          imagem: '/path/to/livin-on-a-prayer.jpg',
+          imagem: '/imagens/imagensRepertorio/ErroGostoso.png',
           nomeMusica: "Erro Gostoso",
           artista: "Simone Mendes"
         },
         {
-          imagem: '/path/to/paradise-city.jpg',
+          imagem: '/imagens/imagensRepertorio/Morena.png',
           nomeMusica: "Morena",
           artista: "Clayton & Romário"
         },
         {
-          imagem: '/path/to/hells-bells.jpg',
+          imagem: '/imagens/imagensRepertorio/Canudinho.png',
           nomeMusica: "Canudinho",
           artista: "Gusttavo Lima"
         }
