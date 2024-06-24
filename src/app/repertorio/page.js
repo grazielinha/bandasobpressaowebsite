@@ -22,11 +22,12 @@ const Repertorio = () => {
   };
 
   return (
-    <div className="flex justify-center flex-col items-center min-h-screen bg-blue-600 text-white">     
+    <div className="flex justify-center flex-col items-center min-h-screen bg-blue-600 text-white">
       <div className="text-center bg-cover bg-center" style={{ backgroundImage: "url('/imagens/foto-vinil-repertorio.png')" }}>
         <div className="text-center mt-20 mb-20 bg-opacity-70 p-5">
           <h1 className="text-4xl font-bold">REPERTÓRIO</h1>
-          <p>Clique no play e escute a playlist para cada gênero no Spotify!</p>
+          <p className="text-center">Alguns exemplos do que tocamos.</p>
+          <p>Clique no play e escute a playlist no Spotify para ter uma prévia de nosso repertório!</p>
         </div>
       </div>
 
@@ -65,7 +66,7 @@ const Repertorio = () => {
           {pegarMusicas(dadosRepertorio.rockInternacional)}
         </div>
       </div>
-     
+
       <div className="bg-azulPrincipal w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
           <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">

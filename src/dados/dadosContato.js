@@ -15,19 +15,19 @@ export const dadosContato = [
       nome: 'YouTube',
       imagem: '/imagens/itens_footer/youtube.png',
       cor: 'bg-youtubeCor',
-      link: ''
+      link: 'https://www.youtube.com/@sobpressao1765'
     },
     {
       nome: 'Facebook',
       imagem: '/imagens/itens_footer/facebook.png',
       cor: 'bg-facebookCor',
-      link: ''
+      link: 'https://www.facebook.com/sob.pressao.5'
     },
     {
       nome: 'Gmail',
       imagem: '/imagens/itens_footer/gmail.png',
       cor: 'bg-emailCor',
-      link: ''
+      link: 'mailto:sobpressaoband@gmail.com'
     },
     {
       nome: 'Spotify',
