@@ -99,6 +99,10 @@ body {
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.358);
 }
 
+.border-custom {
+  border-color: aqua;
+}
+
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;

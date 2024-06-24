@@ -9,7 +9,8 @@ export default function ContatoGrid() {
           key={index} 
           nome={contato.nome} 
           imagem={contato.imagem} 
-          cor={contato.cor} 
+          cor={contato.cor}
+          link={contato.link}  
         />
       ))}
     </div>

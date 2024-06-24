@@ -20,7 +20,7 @@ const QuemSomosPage = () => {
                     alt="Descrição da Imagem 1"
                     width={700}
                     height={200}
-                    className="my-2 custom-shadow shadow-md"
+                    className="my-2 border-custom custom-shadow shadow-md"
                 />
                 <p className="text-lg text-center my-4">Da esquerda para direita: Hercilio, Graziela, Daniel, Gabriel, Filipe, Kaue e Marcos.</p>
             </div>
