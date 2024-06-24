@@ -14,10 +14,16 @@ export default function Contato() {
       
       <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl mt-12">
         <h2 className="text-2xl font-bold mb-4 md:mb-0">Fale Conosco</h2>
-        <div className="flex flex-col mt-12 mb-4">
-          <p className="mt-2">Faça contato por e-mail diretamente pelo site</p>
-          <p className="mb-2 text-center"> ou entre em contato por WhatsApp.</p>
-        </div>
+        <div className="flex flex-col mt-12 mb-4 text-center md:text-left">
+      <p className="block md:hidden mt-2">
+        Faça contato por e-mail diretamente pelo site ou entre em contato por WhatsApp.
+      </p> 
+      <p className="hidden md:block mt-2">
+        Faça contato por e-mail diretamente pelo site
+        <span className="block">ou entre em contato por WhatsApp.</span>
+      </p>
+    </div>
+
       </div>
       <FormularioContato />
     </div>

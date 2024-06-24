@@ -11,7 +11,7 @@ export default function Galeria() {
     <div className="p-8 bg-gradient-to-b from-azulPrincipal to-azulEmBaixo">
       <h1 className="text-3xl font-bold text-center mb-8">Galeria</h1>
 
-      <div className="w-full max-w-screen-lg mx-auto lg:mt-16 sm:mt-2 lg:p-8 sm:p-2">
+      <div className="w-full max-w-screen-lg mx-auto  ">
       <Carrossel />
       </div>
 

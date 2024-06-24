@@ -27,8 +27,8 @@ export default function Carrossel() {
   };
 
   return (
-    <div className="relative w-full p-10 max-w-4xl mx-auto">
-      <div className="h-64 mb-16 mt-12 md:h-96 lg:h-128 overflow-hidden rounded-lg flex items-center justify-center">
+    <div className="relative w-full md:p-10 max-w-4xl mx-auto">
+      <div className="h-52 sm:h-44 mb-16 mt-6 md:h-96 lg:h-128 overflow-hidden rounded-lg flex items-center justify-center">
         {fotosGaleria.map((src, index) => (
           <div
             key={index}
