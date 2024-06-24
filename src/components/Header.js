@@ -12,6 +12,10 @@ const Header = ({ isHomePage }) => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <header className={`${isHomePage === 'sim' ? (isOpen ? 'bg-azulPrincipal' : 'bg-transparent') : 'bg-azulPrincipal'} text-white px-8 fixed w-full z-10 transition-colors duration-300`}>
@@ -22,9 +26,9 @@ const Header = ({ isHomePage }) => {
               {isOpen ? <FaTimes /> : <FaBars />}
             </button>
             <nav className="hidden md:flex space-x-6">
-              <NavLink href="/">Home</NavLink>
-              <NavLink href="/repertorio">Repertório</NavLink>
-              <NavLink href="/referencias">Referências</NavLink>
+              <NavLink href="/" onClick={closeMenu}>Home</NavLink>
+              <NavLink href="/repertorio" onClick={closeMenu}>Repertório</NavLink>
+              <NavLink href="/referencias" onClick={closeMenu}>Referências</NavLink>
             </nav>
           </div>
 
@@ -41,9 +45,9 @@ const Header = ({ isHomePage }) => {
 
           {/* Direita */}
           <nav className="hidden md:flex space-x-6">
-            <NavLink href="/galeria">Galeria</NavLink>
-            <NavLink href="/quem-somos">Quem Somos</NavLink>
-            <NavLink href="/contato">Contato</NavLink>
+            <NavLink href="/galeria" onClick={closeMenu}>Galeria</NavLink>
+            <NavLink href="/quem-somos" onClick={closeMenu}>Quem Somos</NavLink>
+            <NavLink href="/contato" onClick={closeMenu}>Contato</NavLink>
           </nav>
         </div>
 
@@ -51,12 +55,12 @@ const Header = ({ isHomePage }) => {
         {isOpen && (
           <div className="absolute top-full left-0 right-0 bg-azulPrincipal text-white md:hidden">
             <nav className="flex flex-col space-y-4 p-4">
-              <NavLink href="/">Home</NavLink>
-              <NavLink href="/repertorio">Repertório</NavLink>
-              <NavLink href="/referencias">Referências</NavLink>
-              <NavLink href="/galeria">Galeria</NavLink>
-              <NavLink href="/quem-somos">Quem Somos</NavLink>
-              <NavLink href="/contato">Contato</NavLink>
+              <NavLink href="/" onClick={closeMenu}>Home</NavLink>
+              <NavLink href="/repertorio" onClick={closeMenu}>Repertório</NavLink>
+              <NavLink href="/referencias" onClick={closeMenu}>Referências</NavLink>
+              <NavLink href="/galeria" onClick={closeMenu}>Galeria</NavLink>
+              <NavLink href="/quem-somos" onClick={closeMenu}>Quem Somos</NavLink>
+              <NavLink href="/contato" onClick={closeMenu}>Contato</NavLink>
             </nav>
           </div>
         )}
