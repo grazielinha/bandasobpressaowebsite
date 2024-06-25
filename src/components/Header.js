@@ -2,11 +2,12 @@
 
 import NavLink from './NavLink';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = ({ isHomePage }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -16,9 +17,25 @@ const Header = ({ isHomePage }) => {
     setIsOpen(false);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <header className={`${isHomePage === 'sim' ? (isOpen ? 'bg-azulPrincipal' : 'bg-transparent') : 'bg-azulPrincipal'} text-white px-8 fixed w-full z-10 transition-colors duration-300`}>
+      <header className={`${isHomePage === 'sim' && !scrolled ? (isOpen ? 'bg-azulPrincipal' : 'bg-transparent') : 'bg-azulPrincipal'} text-white px-8 fixed w-full z-10 transition-colors duration-300`}>
         <div className="container mx-auto flex justify-between items-center">
           {/* Esquerda */}
           <div className="flex items-center space-x-6">
@@ -35,7 +52,7 @@ const Header = ({ isHomePage }) => {
           {/* Centro */}
           <div className="flex justify-center items-center flex-1">
             <Image
-              src="/imagens/logoBandaBranca.png" // Substitua pelo caminho correto da logo da banda
+              src="/imagens/logoBandaBranca.png"
               alt="Logo da Banda"
               width={100}
               height={50}
@@ -65,7 +82,6 @@ const Header = ({ isHomePage }) => {
           </div>
         )}
       </header>
-      {/* Espaço abaixo do header para evitar sobreposição */}
       <div className="h-16"></div>
     </>
   );

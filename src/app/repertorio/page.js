@@ -95,7 +95,7 @@ const Repertorio = () => {
         <h2 className="text-3xl font-bold text-center mb-6">
           <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
-          Pop Rock Nacional
+          Sertanejo Universitário
           </a>
         </h2>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
