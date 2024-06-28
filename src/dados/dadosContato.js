@@ -3,7 +3,7 @@ export const dadosContato = [
       nome: 'Whatsapp',
       imagem: '/imagens/itens_footer/whatsapp.png',
       cor: 'bg-whatsappCor',
-      link: ''
+      link: 'https://wa.me/'
     },
     {
       nome: 'Instagram',

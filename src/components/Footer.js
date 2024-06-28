@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image';
+import { dadosContato } from '../dados/dadosContato'; // Certifique-se de ajustar o caminho para o seu arquivo dadosContato.js
 
 const Footer = () => {
   return (
@@ -15,60 +16,19 @@ const Footer = () => {
         </div>
         <div className="flex-1 md:mr-4 flex items-center justify-center w-full md:w-auto">
           <ul className="flex flex-wrap justify-center space-x-4">
-            <li><a href="#">
-              <Image
-                src="/imagens/itens_footer/instagram.png"
-                alt="ícone do Instagram"
-                width={30}
-                height={30}
-                className="w-8 h-8"
-              />
-            </a></li>
-            <li><a href="#">
-              <Image
-                src="/imagens/itens_footer/facebook.png"
-                alt="ícone do Facebook"
-                width={30}
-                height={30}
-                className="w-8 h-8"
-              />
-            </a></li>
-            <li><a href="#">
-              <Image
-                src="/imagens/itens_footer/whatsapp.png"
-                alt="ícone do WhatsApp"
-                width={30}
-                height={30}
-                className="w-8 h-8"
-              />
-            </a></li>
-            <li><a href="#">
-              <Image
-                src="/imagens/itens_footer/gmail.png"
-                alt="ícone do Gmail"
-                width={30}
-                height={30}
-                className="w-8 h-8"
-              />
-            </a></li>
-            <li><a href="#">
-              <Image
-                src="/imagens/itens_footer/youtube.png"
-                alt="ícone do Youtube"
-                width={30}
-                height={30}
-                className="w-8 h-8"
-              />
-            </a></li>
-            <li><a href="#">
-              <Image
-                src="/imagens/itens_footer/spotify.png"
-                alt="ícone do Spotify"
-                width={30}
-                height={30}
-                className="w-8 h-8"
-              />
-            </a></li>
+            {dadosContato.map((contato, index) => (
+              <li key={index}>
+                <a href={contato.link} target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={contato.imagem}
+                    alt={`ícone do ${contato.nome}`}
+                    width={30}
+                    height={30}
+                    className="w-8 h-8"
+                  />
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="flex-1 text-xs text-black text-center md:text-right w-full md:w-auto">

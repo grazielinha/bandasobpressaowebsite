@@ -26,15 +26,16 @@ const Repertorio = () => {
       <div className="text-center bg-cover bg-center" style={{ backgroundImage: "url('/imagens/foto-vinil-repertorio.png')" }}>
         <div className="text-center mt-20 mb-20 bg-opacity-70 p-5">
           <h1 className="text-4xl font-bold">REPERTÓRIO</h1>
-          <p className="text-center">Alguns exemplos do que tocamos.</p>
-          <p>Clique no play e escute a playlist no Spotify para ter uma prévia de nosso repertório!</p>
+          <p className="text-center">Alguns exemplos do que tocamos para ter uma prévia de nosso repertório!</p>
+          {/* para descomentar ctrl k + ctrl u */}
+          {/* <p>Clique no play e escute a playlist no Spotify para ter uma prévia de nosso repertório!</p> */}
         </div>
       </div>
 
       <div className="bg-gradient-to-b from-azulPrincipal to-azulEmBaixo w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
-            <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
+            <PlayIcon className="h-8 w-8 mr-2 pointer-events-none" /> {/* Ícone de play */}
             Rock dos Anos 60
           </a>
         </h2>
@@ -44,7 +45,7 @@ const Repertorio = () => {
       </div>
 
       <div className="bg-azulEmBaixo w-full py-10">
-        <h2 className="text-3xl font-bold text-center mb-6">
+        <h2 className="text-3xl font-bold text-center mb-6 cursor-default pointer-events-none">
           <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Rock Nacional
@@ -56,7 +57,7 @@ const Repertorio = () => {
       </div>
 
       <div className="bg-gradient-to-b from-azulEmBaixo to-azulPrincipal w-full py-10">
-        <h2 className="text-3xl font-bold text-center mb-6">
+        <h2 className="text-3xl font-bold text-center mb-6 cursor-default pointer-events-none">
           <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Rock Internacional
@@ -69,7 +70,7 @@ const Repertorio = () => {
 
       <div className="bg-azulPrincipal w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Balada dos Anos 80
           </a>
@@ -81,7 +82,7 @@ const Repertorio = () => {
 
       <div className="bg-gradient-to-b from-azulPrincipal to-azulEmBaixo w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Disco Music
           </a>
@@ -93,7 +94,7 @@ const Repertorio = () => {
 
       <div className="bg-azulEmBaixo w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
           Sertanejo Universitário
           </a>
@@ -105,7 +106,7 @@ const Repertorio = () => {
 
       <div className="bg-gradient-to-b from-azulEmBaixo to-azulPrincipal w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Sertanejo
           </a>
@@ -117,7 +118,7 @@ const Repertorio = () => {
 
       <div className="bg-azulPrincipal w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Pagode
           </a></h2>
@@ -128,7 +129,7 @@ const Repertorio = () => {
 
       <div className="bg-gradient-to-b from-azulPrincipal to-azulEmBaixo w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Música Gaúcha
           </a>
@@ -140,19 +141,19 @@ const Repertorio = () => {
 
       <div className="bg-azulEmBaixo w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Forró
             </a>
          </h2>
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 cursor-default pointer-events-none">
           {pegarMusicas(dadosRepertorio.forro)}
         </div>
       </div>
 
       <div className="bg-gradient-to-b from-azulEmBaixo to-azulPrincipal w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Funk
             </a>
@@ -164,7 +165,7 @@ const Repertorio = () => {
 
       <div className="bg-azulPrincipal w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             OktoberFest
             </a>
@@ -176,7 +177,7 @@ const Repertorio = () => {
 
       <div className="bg-gradient-to-b from-azulPrincipal to-azulEmBaixo w-full py-10">
         <h2 className="text-3xl font-bold text-center mb-6">
-          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200">
+          <a href="#" className="flex items-center justify-center text-white hover:text-gray-200 cursor-default pointer-events-none">
             <PlayIcon className="h-8 w-8 mr-2" /> {/* Ícone de play */}
             Reggae
             </a>
