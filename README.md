@@ -1,5 +1,12 @@
 # Banda Sob Pressao Site
 
+Projeto de Extensao Universitaria
+Universidade do Vale do Itajai
+Disciplina de programacao web sob orientacao do professor Jhonatan Alves
+Alunos: Helena Becker Piazera, Izabela Andreazza e Vinicius Borchardt Grisa
+
+
+
 Para dar build
 
 Apos baixar o repoitorio, extraia o arquivo.
