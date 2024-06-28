@@ -3,7 +3,7 @@ export const dadosContato = [
       nome: 'Whatsapp',
       imagem: '/imagens/itens_footer/whatsapp.png',
       cor: 'bg-whatsappCor',
-      link: 'https://wa.me/'
+      link: 'https://wa.me/5547991250116'
     },
     {
       nome: 'Instagram',
@@ -33,7 +33,7 @@ export const dadosContato = [
       nome: 'Spotify',
       imagem: '/imagens/itens_footer/spotify.png',
       cor: 'bg-spotifyCor',
-      link: ''
+      link: 'https://open.spotify.com/user/31cnllxe6ejj3gvhviddkq6rtqwe?si=3a927a4e7ea64106'
     },
   ];
   
