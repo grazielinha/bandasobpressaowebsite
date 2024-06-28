@@ -11,6 +11,7 @@ export default function ContatoGrid() {
           imagem={contato.imagem} 
           cor={contato.cor}
           link={contato.link}  
+          
         />
       ))}
     </div>

@@ -24,7 +24,7 @@ const Footer = () => {
                     alt={`ícone do ${contato.nome}`}
                     width={30}
                     height={30}
-                    className="w-8 h-8"
+                    className="w-8 h-8 duration-300 transform transition-transform hover:translate-y-[-2px]"
                   />
                 </a>
               </li>
