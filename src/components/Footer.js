@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex-1 text-xs text-black text-center md:text-right w-full md:w-auto">
-          <p>&copy; 2024 Banda Sob Pressão. Todos os direitos reservados.</p>
+          <p>&copy; 2026 Banda Sob Pressão. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
